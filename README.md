@@ -337,33 +337,6 @@ Consulta [docs/security/SEGURIDAD_UNIFICADA.md](docs/security/SEGURIDAD_UNIFICAD
 
 ---
 
-## 🤝 Contribuir
-
-### Cómo Contribuir
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add: Amazing Feature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-### Estándares de Código
-
-- **PSR-12** para código PHP
-- **Comentarios** en español
-- **Tests** para nuevas funcionalidades
-- **Documentación** actualizada
-
-### Reportar Bugs
-
-Usa el sistema de Issues de GitHub con:
-- Descripción clara del bug
-- Pasos para reproducir
-- Comportamiento esperado vs actual
-- Screenshots si es aplicable
-
----
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver [LICENSE](LICENSE) para más detalles.
