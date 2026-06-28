@@ -384,19 +384,29 @@ Desarrollado para la **E.E.S.T. N°2 "Educación y Trabajo"**
 
 ## 📝 Changelog
 
-### Versión 2.0.0 (2024)
-- ✨ Sistema completamente responsive
-- ✨ Nuevo sistema de boletines
-- ✨ Documentación integrada
-- ✨ Mejoras de seguridad
-- ♻️ Reorganización de estructura de carpetas
-- 🐛 Múltiples correcciones de bugs
+### Versión 2.1.1 (Junio 2026) - "Rediseño de Asistencia & Refactorización de Arquitectura"
+- 📱 **Interfaz móvil táctil (App-like UX)** para la toma de asistencia y panel deslizable inferior (Bottom Sheet) responsivo.
+- ⚙️ **Refactorización Clean Architecture / OOP:** Migración de la lógica inline de Gestión de Usuarios y procesamiento de Asistencias a controladores (`Controllers`), mapeadores (`Mappers`) y modelos de dominio (`Models`) desacoplados.
+- 📐 **Motor de Reglas Académicas Ponderado:** Adaptación de las fórmulas de asistencia e inasistencia según el Régimen Oficial de la Pcia. de Buenos Aires (Tardanza = 0.25, Media falta = 0.50) con soporte para acumulados decimales en los boletines.
+- 🔒 **Endurecimiento de Seguridad (RBAC):** Migración de controles rígidos de rol (`hasRole('admin')`) a permisos granulares (`can('permission_slug')`).
+- 🐛 Corrección de sintaxis y optimización de consultas SQL.
 
-### Versión 1.0.0 (2023)
-- 🎉 Primera versión estable
-- 👥 Gestión de estudiantes y profesores
-- 📚 Sistema de notas y cursos
-- 🔒 Sistema de seguridad básico
+### Versión 2.1.0 (2025) - "Documentación Completa y Estabilización"
+- 📚 **Hub de Documentación:** Hub integrado interactivo en formato web con guías detalladas para administradores, desarrolladores y usuarios finales.
+- 🛠️ **Herramientas de Monitoreo:** Panel de estado del sistema (CPU, memoria, disco y estado de BD) en tiempo real.
+- 💾 **Backups Automatizados:** Módulo administrativo para realizar y restaurar copias de seguridad de BD + archivos con firma HMAC.
+
+### Versión 2.0.0 (2024) - "Seguridad Avanzada e Integridad"
+- 🔒 **Autenticación de Dos Factores (MFA):** Integración con Google Authenticator (TOTP) y códigos de respaldo.
+- 🛡️ **Prevención OWASP:** Middleware de seguridad reforzado (prevención SQLi, protección CSRF extendida y headers HTTP seguros).
+- ♻️ Reorganización del proyecto bajo estructura estándar PSR-4 y autoloader orientado a objetos.
+- ✨ Mejoras de responsive design en dashboards administrativos.
+
+### Versión 1.0.0 (2023) - "Primera versión estable"
+- 🎉 Primera versión estable lista para producción.
+- 👥 Gestión de estudiantes, profesores y cursos.
+- 📚 Carga de notas y generación de boletines iniciales.
+- 🔒 Sistema de sesión y seguridad básico.
 
 ---
 
